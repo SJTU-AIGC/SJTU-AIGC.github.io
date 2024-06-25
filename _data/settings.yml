@@ -1,10 +1,10 @@
 menu:
 - {name: 'team', url: '/team'}
 - {name: 'publications', url: '/publications'}
-- - {name: 'awards', url: '/awards'}
+- {name: 'awards', url: '/awards'}
 - {name: 'teaching', url: '/teaching'}
 # - {name: 'cv', url: '/cv'}
-- {name: 'join', url: '/joinus'}
+- {name: 'join us', url: '/joinus'}
 - {name: 'contact', url: '/contact'}
 
 people:
