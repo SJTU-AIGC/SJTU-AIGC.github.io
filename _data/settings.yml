@@ -24,4 +24,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Kevin ZHAO Weiming', title: '', department: 'SJTU AIGC Class', institution: 'Shanghai Jiao Tong University', institution_address: '800 Dongchuan Road, Minhang, Shanghai, China', email: 'aigc#sjtu.edu.cn', office: 'Room B300, Student Innovation Center'}
+- {name: 'Kevin ZHAO Weiming', title: 'Head of Class', department: 'SJTU AIGC Class', institution: 'Shanghai Jiao Tong University', institution_address: '800 Dongchuan Road, Minhang, Shanghai, China', email: 'aigc#sjtu.edu.cn', office: 'Room B300, Student Innovation Center'}
