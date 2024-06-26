@@ -3,6 +3,8 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+We are part of the Student Innovation Center of Shanghai Jiao Tong University (SJTU). Our mission is to push the boundaries of research and education in AI-generated content (AIGC), preparing students to be leaders in this rapidly evolving field.
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+In the fall of 2023, the Student Innovation Center, in collaboration with the Institute of Artificial Intelligence of SJTU and multiple leading companies, established the Shanghai Jiao Tong University AIGC Class.
+
+The AIGC Class boasts a diverse and exceptional faculty, including distinguished teachers from SJTU's Student Innovation Center and Artificial Intelligence Institute, as well as top engineers from the industry. Through this program, students receive a comprehensive education that combines theoretical knowledge and practical skills, driving innovation and progress in the AIGC domain.
