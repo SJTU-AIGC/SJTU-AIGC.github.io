@@ -6,7 +6,7 @@ menu:
 # - {name: 'cv', url: '/cv'}
 - {name: 'join&nbsp;us', url: '/joinus'}
 - {name: 'contact', url: '/contact'}
-- {name: '中文', url: '/cn/'}
+- {name: '中文&nbsp;', url: '/cn/'}
 
 
 people:
