@@ -9,7 +9,12 @@ menu:
 - {name: '中', url: '/cn'}
 
 headofclass:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+# - {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'primary-investigator'}
+- {name: 'Pengzhi CHU', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/chupengzhi.png', url: ''}
+- {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://zwm0426.github.io'}
+- {name: 'Yichao YAN', title: 'Assistant Professor', department: 'AI Institute, SEIEE', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.png', url: 'https://daodaofr.github.io'}
+
+
 
 classof2023: 
 # - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
