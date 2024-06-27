@@ -20,10 +20,10 @@ classof2023:
 - {name: 'Rui GE', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/gerui.png', url: ''}
 - {name: 'Yuhan GUO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/guoyuhan.png', url: ''}
 - {name: 'Junxiao KONG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/kongjunxiao.png', url: ''}
-- {name: 'Dongxiao LI', school: 'AA', image: 'assets/img/classof2023/lidongxiao.png', url: ''}
+- {name: 'Dongxiao LI', school: 'Ecole d'Ingénieurs Paris at SJTU', image: 'assets/img/classof2023/lidongxiao.png', url: ''}
 - {name: 'Jize LIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/liujize.png', url: ''}
 - {name: 'Yitian LIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/liuyitian.png', url: ''}
-- {name: 'Jiacheng LU', school: 'Antai ~', image: 'assets/img/classof2023/lujiacheng.png', url: ''}
+- {name: 'Jiacheng LU', school: 'Antai College of Economics and Management', image: 'assets/img/classof2023/lujiacheng.png', url: ''}
 - {name: 'Zerui PENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/pengzerui.png', url: ''}
 - {name: 'Bolin QIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/qiubolin.png', url: ''}
 - {name: 'Yikang RUAN', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/ruanyikang.png', url: ''}
