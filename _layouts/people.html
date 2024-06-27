@@ -36,47 +36,18 @@ layout: default
     <h3>程子林</h3>
     <p>电子信息与电气工程学院</p>
   </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/class2023/baokangjie.jpg" alt="鲍康捷">
-    <h3>鲍康捷</h3>
-    <p>数学科学学院</p>
-  </div>
   <!-- Repeat for all team members -->
+</div>
+
+
+<div class="team-container">
+  {% for person in site.data.settings.classof2023 %}
+  <div class="team-member">
+    <img src="{{ site.baseurl }}/{{ person.image }}" alt="{{ person.name }}">
+    <h3>{{ person.name }}</h3>
+    <p>{{ person.school }}</p>
+  </div>
+  {% endfor %}
 </div>
 
 <style>
