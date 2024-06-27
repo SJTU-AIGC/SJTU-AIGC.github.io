@@ -29,11 +29,10 @@ classof2023:
 - {name: 'Yikang RUAN', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/ruanyikang.png', url: ''}
 - {name: 'Zhe SHUAI', school: 'School of Design', image: 'assets/img/classof2023/shuaizhe.png', url: ''}
 - {name: 'Xinwen TONG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/tongxinwen.png', url: ''}
-# - {name: 'Xinyao WANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/wangxinyao.png', url: ''}
 - {name: 'Yuhang WANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/wangyuhang.png', url: ''}
 - {name: 'Xinyuan XIA', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xiaxinyuan.png', url: ''}
 - {name: 'Congsheng XU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xucongsheng.png', url: ''}
-- {name: 'Heyi XU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xuheyi.png', url: ''}
+- {name: 'Heyi XU', school: 'School of Design', image: 'assets/img/classof2023/xuheyi.png', url: ''}
 - {name: 'Guanju YAN', school: 'School of Physics and Astronomy', image: 'assets/img/classof2023/yanguanju.png', url: ''}
 - {name: 'Yikun ZENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zengyikun.png', url: ''}
 - {name: 'Jiashuo ZHANG', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/zhangjiashuo.png', url: ''}
@@ -55,10 +54,10 @@ people:
 # - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+# - {icon: 'github', link: 'https://github.com/LeNPaul'}
+# - {icon: 'twitter', link: 'https://twitter.com/paululele'}
+# - {icon: 'instagram', link: 'https://instagram.com/paululele'}
+# - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
 - {name: 'Kevin ZHAO Weiming', title: 'Head of Class', department: 'SJTU AIGC Class', institution: 'Shanghai Jiao Tong University', institution_address: '800 Dongchuan Road, Minhang, Shanghai, China', email: 'aigc#sjtu.edu.cn', office: 'Room B300, Student Innovation Center'}
