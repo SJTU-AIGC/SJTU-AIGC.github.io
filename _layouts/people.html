@@ -5,6 +5,8 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Team</h3>
+
+<!--
 {% for person in site.data.settings.people %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
@@ -18,3 +20,41 @@ layout: default
   </div>
 </div>
 {% endfor %}
+-->
+
+
+# 第一届 AIGC Class
+
+<div class="team-container">
+  <div class="team-member">
+    <img src="/assets/images/baokangjie.jpg" alt="鲍康捷">
+    <h3>鲍康捷</h3>
+    <p>数学科学学院</p>
+  </div>
+  <div class="team-member">
+    <img src="/assets/images/chengzilin.jpg" alt="程子林">
+    <h3>程子林</h3>
+    <p>电子信息与电气工程学院</p>
+  </div>
+  <!-- Repeat for all team members -->
+</div>
+
+<style>
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+.team-member {
+  flex: 0 1 200px;
+  margin: 20px;
+  text-align: center;
+}
+.team-member img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+</style>
+
