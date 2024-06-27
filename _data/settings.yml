@@ -11,7 +11,7 @@ menu:
 headofclass:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 
-classof2023:
+classof2023: 
 # - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
 # - {name: 'Zicong CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/chengzicong.png', url: ''}
 - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
