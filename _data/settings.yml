@@ -1,8 +1,8 @@
 menu:
 - {name: 'team', url: '/team'}
-# - {name: 'publications', url: '/publications'}
 - {name: 'awards', url: '/awards'}
-- {name: 'teaching', url: '/teaching'}
+- {name: 'publications', url: '/publications'}
+# - {name: 'teaching', url: '/teaching'}
 # - {name: 'cv', url: '/cv'}
 - {name: 'join&nbsp;us', url: '/joinus'}
 - {name: 'contact', url: '/contact'}
