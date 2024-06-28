@@ -6,6 +6,11 @@ layout: default
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Join us</h3>
 
+<div class="notification-box">
+    <p>The SJTU AIGC Class of 2023 recruitment was closed on November 20, 2023.</p>
+    <p>Our recruitment of 2024 will start in September, 2024.</p>
+</div>
+
 <h4 class="fw-bold pb-1 mb-2">Background</h4>
 <p>From Sobel and Canny's digital image processing algorithms to detect edges in images, to deep learning algorithms like R-CNN and YOLO for object detection in images, from GANs to Diffusion Models, and from 2D to 3D, deep learning models demonstrate the potential for infinite content generation.</p>
 <p>From ChatGPT to ERNIE Bot, from MidJourney to DALL·E, AI-generated content applications have rapidly expanded. AI-generated content (AIGC) is becoming integral to our lives, poised to be a key driver in media, culture, and creative industries.</p>
@@ -17,25 +22,51 @@ layout: default
 <p>The Institute of Artificial Intelligence has over a hundred faculty members. The Visual Intelligence Research Center focuses on integrating human-machine interactions, aiming at the scientific forefront of artificial intelligence and computer vision, developing new-generation visual intelligence theories and technologies characterized by comprehensive perception, behavioral cognition, virtual-real integration, and security. It aims to enhance visual perception and cognitive abilities in digital media, smart cities, smart healthcare, and other fields, realizing the vision of AI-powered new perspectives.</p>
 
 <h4 class="fw-bold pb-1 mb-2">Advanced Equipment</h4>
-<p><strong>Optical Motion Capture System:</strong></p>
-<p>The motion capture equipment is equipped with the advanced Optitrack optical motion capture system, including 20 high-precision Optitrack PrimeX22 cameras, multiple motion capture suits, and supporting software. Motion capture actors can wear motion capture suits and move freely within the venue, capturing complete motion sequences for animation, games, and more. Additionally, several tripods and RGB cameras are set up in the venue for visual motion capture research.</p>
-<img src="https://notes.sjtu.edu.cn/uploads/upload_eca6f141c93406549f90252a555bb9bb.JPG" alt="Optical Motion Capture System">
+<div class="flex-container">
+    <div class="flex-text">
+        <p><strong>Optical Motion Capture System:</strong></p>
+        <p>The motion capture equipment is equipped with the advanced Optitrack optical motion capture system, including 20 high-precision Optitrack PrimeX22 cameras, multiple motion capture suits, and supporting software. Motion capture actors can wear motion capture suits and move freely within the venue, capturing complete motion sequences for animation, games, and more. Additionally, several tripods and RGB cameras are set up in the venue for visual motion capture research.</p>
+    </div>
+    <div class="flex-image">
+        <img src="assets/img/joinus/motioncapture.jpg" alt="Optical Motion Capture System">
+    </div>
+</div>
 
-<p><strong>4D Facial Expression Motion Capture System:</strong></p>
-<p>The static facial PBR material scanner includes 46 3D modeling cameras and 5 PBR high-speed cameras, capturing 46 modeling images and 15x5 PBR photos under different lighting conditions in 3 seconds, used to reconstruct high-precision models and 8K resolution PBR texture maps.</p>
-<img src="https://notes.sjtu.edu.cn/uploads/upload_9f422578d46ac52fbce83efbf3778d00.JPG" alt="4D Facial Expression Motion Capture System">
+<div class="flex-container">
+    <div class="flex-text">
+        <p><strong>4D Facial Expression Motion Capture System:</strong></p>
+        <p>The static facial PBR material scanner includes 46 3D modeling cameras and 5 PBR high-speed cameras, capturing 46 modeling images and 15x5 PBR photos under different lighting conditions in 3 seconds, used to reconstruct high-precision models and 8K resolution PBR texture maps.</p>
+    </div>
+    <div class="flex-image">
+        <img src="assets/img/joinus/facecapture.jpg" alt="4D Facial Expression Motion Capture System">
+    </div>
+</div>
 
-<p><strong>Fluid Visual Intuitive Learning Platform:</strong></p>
-<p>The fluid visual intuitive learning platform focuses on researching AI fluid simulation technology across multi-scene, multi-physics, and multi-scale coupling. Through high-frame-rate, high-resolution camera arrays, it achieves multi-view, high-quality, and highly synchronized dynamic fluid data collection.</p>
-<img src="https://notes.sjtu.edu.cn/uploads/upload_ec0f9f3d88dae1bb8e484f863ced5ef0.JPG" alt="Fluid Visual Intuitive Learning Platform">
 
-<p><strong>We also have:</strong></p>
-<ul>
-    <li>GPU arrays: Huawei Atlas 800, Nvidia A100, RTX3090</li>
-    <li>Dedicated work areas and workstations</li>
-    <li>Various AR/VR headsets</li>
-</ul>
-<img src="https://notes.sjtu.edu.cn/uploads/upload_7b63b79e59ebab9ed44d135a1a3d3703.jpeg" alt="Equipment Image">
+<div class="flex-container">
+    <div class="flex-text">
+        <p><strong>Fluid Visual Intuitive Learning Platform:<</strong></p>
+        <p>The fluid visual intuitive learning platform focuses on researching AI fluid simulation technology across multi-scene, multi-physics, and multi-scale coupling. Through high-frame-rate, high-resolution camera arrays, it achieves multi-view, high-quality, and highly synchronized dynamic fluid data collection.</p>
+    </div>
+    <div class="flex-image">
+        <img src="assets/img/joinus/fluiddynamic.jpg" alt="Fluid Visual Intuitive Learning Platform">
+    </div>
+</div>
+
+
+<div class="flex-container">
+    <div class="flex-text">
+        <p><strong>We also have:<</strong></p>
+        <ul>
+            <li>GPU arrays: Huawei Atlas 800, Nvidia A100, RTX3090</li>
+            <li>Dedicated work areas and workstations</li>
+            <li>Various AR/VR headsets</li>
+        </ul>
+    </div>
+    <div class="flex-image">
+        <img src="assets/img/joinus/servers.jpg" alt="Fluid Visual Intuitive Learning Platform">
+    </div>
+</div>
 
 
 <h4 class="fw-bold pb-1 mb-2">Training Program</h4>
@@ -108,20 +139,35 @@ layout: default
 
 
 <style>
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 2em;
-}
-.team-member {
-  flex: 0 1 200px;
-  margin: 20px;
-  text-align: center;
-}
-.team-member img {
-  width: 100px;
-  height: 100px;
-}
+    .notification-box {
+        background-color: #f0ad4e;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .flex-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+    }
+
+    .flex-text {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .flex-image {
+        flex: 1;
+    }
+
+    .flex-image img {
+        max-width: 100%;
+        height: auto;
+    }
 </style>
 
