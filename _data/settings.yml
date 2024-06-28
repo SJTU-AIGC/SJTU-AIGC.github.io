@@ -1,11 +1,12 @@
 menu:
+- {name: 'home', url: '/'}
 - {name: 'team', url: '/team'}
 - {name: 'awards', url: '/awards'}
 - {name: 'publications', url: '/publications'}
 # - {name: 'teaching', url: '/teaching'}
 # - {name: 'cv', url: '/cv'}
 - {name: 'join&nbsp;us', url: '/joinus'}
-- {name: 'contact', url: '/contact'}
+# - {name: 'contact', url: '/contact'}
 - {name: '中', url: '/cn'}
 
 headofclass:
