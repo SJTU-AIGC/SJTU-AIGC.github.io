@@ -16,33 +16,31 @@ layout: default
       <p><strong>3rd Place Award</strong></p>
       <p><strong>June 17, 2024</strong></p>
 
-      <div class="winner-details">
-        <img src="assets/img/classof2023/xucongsheng.png" alt="Congsheng XU" class="winner-avatar">
-        <span>Congsheng XU</span>
-      </div>
-      <div class="winner-details">
-        <img src="path/to/winner2-image.jpg" alt="Winner 2 Image" class="winner-avatar">
-        <span>Jinfan LIU</span>
-      </div>
-      <div class="winner-details">
-        <img src="path/to/winner2-image.jpg" alt="Winner 2 Image" class="winner-avatar">
-        <span>Yifan LIU</span>
-      </div>
-      <div class="winner-details">
-        <img src="path/to/winner2-image.jpg" alt="Winner 2 Image" class="winner-avatar">
-        <span>Shuwen WU</span>
-      </div>
-      <div class="winner-details">
-        <img src="path/to/winner2-image.jpg" alt="Winner 2 Image" class="winner-avatar">
-        <span>Jinfan LIU</span>
-      </div>
-      <div class="winner-details">
-        <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="winner-avatar">
-        <span>Yichao YAN</span>
-      </div>
-      <div class="winner-details">
-        <img src="assets/img/faculty/zhaoweiming.png" alt="Weiming ZHAO" class="winner-avatar">
-        <span>Weiming ZHAO</span>
+      <div class="winners-container">
+        <div class="winner-details">
+          <img src="assets/img/classof2023/xucongsheng.png" alt="Congsheng XU" class="winner-avatar">
+          <span>Congsheng XU</span>
+        </div>
+        <div class="winner-details">
+          <img src="path/to/winner2-image.jpg" alt="Jinfan LIU" class="winner-avatar">
+          <span>Jinfan LIU</span>
+        </div>
+        <div class="winner-details">
+          <img src="path/to/winner2-image.jpg" alt="Yifan LIU" class="winner-avatar">
+          <span>Yifan LIU</span>
+        </div>
+        <div class="winner-details">
+          <img src="path/to/winner2-image.jpg" alt="Shuwen WU" class="winner-avatar">
+          <span>Shuwen WU</span>
+        </div>
+        <div class="winner-details">
+          <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="winner-avatar">
+          <span>Yichao YAN</span>
+        </div>
+        <div class="winner-details">
+          <img src="assets/img/faculty/zhaoweiming.png" alt="Weiming ZHAO" class="winner-avatar">
+          <span>Weiming ZHAO</span>
+        </div>
       </div>
 
     </div>
@@ -64,12 +62,6 @@ layout: default
   flex: 1;
 }
 
-.winner-details {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
 .winner-avatar {
   max-width: 50px;
   height: 50px;
@@ -77,8 +69,22 @@ layout: default
   margin-right: 10px;
 }
 
-.winner-details span {
-  line-height: 50px; /*align with imgs*/
+.winners-container {
+  display: flex;
+  flex-wrap: wrap; /* 使获奖人名和头像在行中排列，当行满时自动换行 */
+  gap: 10px; /* 设置获奖人之间的间距 */
+}
+
+.winner-details {
+  display: flex;
+  align-items: center;
+}
+
+.winner-avatar {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 </style>
