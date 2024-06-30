@@ -27,13 +27,14 @@ layout: default
 
 <div class="section">
     <h4 class="fw-bold pb-1 mb-2">Advanced Equipment</h4>
+
     <div class="flex-container">
         <div class="flex-text">
             <p><strong>Optical Motion Capture System:</strong></p>
             <p>The motion capture equipment is equipped with the advanced Optitrack optical motion capture system, including 20 high-precision Optitrack PrimeX22 cameras, multiple motion capture suits, and supporting software. Motion capture actors can wear motion capture suits and move freely within the venue, capturing complete motion sequences for animation, games, and more. Additionally, several tripods and RGB cameras are set up in the venue for visual motion capture research.</p>
         </div>
         <div class="flex-image">
-            <img src="assets/img/joinus/motioncapture.jpg" alt="Optical Motion Capture System" style="max-width: 100%; height: auto; width: 300px;">
+            <img src="assets/img/joinus/motioncapture.jpg" alt="Optical Motion Capture System">
         </div>
     </div>
 
@@ -43,10 +44,9 @@ layout: default
             <p>The static facial PBR material scanner includes 46 3D modeling cameras and 5 PBR high-speed cameras, capturing 46 modeling images and 15x5 PBR photos under different lighting conditions in 3 seconds, used to reconstruct high-precision models and 8K resolution PBR texture maps.</p>
         </div>
         <div class="flex-image">
-            <img src="assets/img/joinus/facecapture.jpg" alt="4D Facial Expression Motion Capture System" style="max-width: 100%; height: auto; width: 300px;">
+            <img src="assets/img/joinus/facecapture.jpg" alt="4D Facial Expression Motion Capture System">
         </div>
     </div>
-
 
     <div class="flex-container">
         <div class="flex-text">
@@ -54,10 +54,9 @@ layout: default
             <p>The fluid visual intuitive learning platform focuses on researching AI fluid simulation technology across multi-scene, multi-physics, and multi-scale coupling. Through high-frame-rate, high-resolution camera arrays, it achieves multi-view, high-quality, and highly synchronized dynamic fluid data collection.</p>
         </div>
         <div class="flex-image">
-            <img src="assets/img/joinus/fluiddynamic.jpg" alt="Fluid Visual Intuitive Learning Platform" style="max-width: 100%; height: auto; width: 300px;">
+            <img src="assets/img/joinus/fluiddynamic.jpg" alt="Fluid Visual Intuitive Learning Platform">
         </div>
     </div>
-
 
     <div class="flex-container">
         <div class="flex-text">
@@ -69,10 +68,11 @@ layout: default
             </ul>
         </div>
         <div class="flex-image">
-            <img src="assets/img/joinus/server.jpg" alt="Fluid Visual Intuitive Learning Platform" style="max-width: 100%; height: auto; width: 300px;">
+            <img src="assets/img/joinus/server.jpg" alt="GPU arrays and workstations">
         </div>
     </div>
 </div>
+
 
 <div class="section">
     <h4 class="fw-bold pb-1 mb-2">Training Program</h4>
@@ -162,9 +162,10 @@ layout: default
     }
 
     .flex-container {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        flex-wrap: wrap; /* 允许在小屏幕上换行 */
     }
 
     .flex-text {
@@ -174,15 +175,30 @@ layout: default
 
     .flex-image {
         flex: 0 1 300px;
-        text-align: right;
+        text-align: center; /* 确保在移动设备上居中 */
     }
 
     .flex-image img {
         max-width: 100%;
         height: auto;
     }
+
     .section {
-        margin-bottom: 40px; /* paragraph margin */
+        margin-bottom: 40px; /* 调整段落之间的间距 */
     }
+
+    /* 为移动设备添加媒体查询 */
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column; /* 切换为列方向 */
+        }
+        .flex-text {
+            padding-right: 0;
+        }
+        .flex-image {
+            margin-bottom: 20px; /* 增加底部间距 */
+        }
+    }
+
 </style>
 
