@@ -7,7 +7,7 @@ menu:
 # - {name: 'cv', url: '/cv'}
 - {name: 'join&nbsp;us', url: '/joinus'}
 # - {name: 'contact', url: '/contact'}
-- {name: '中', url: '/cn'}
+- {name: '中文', url: '/cn'}
 
 headofclass:
 # - {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'primary-investigator'}
@@ -45,8 +45,6 @@ classof2023:
 - {name: 'Wenkang ZHANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zhangwenkang.png', url: ''}
 - {name: 'Yu ZHAO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zhaoyu.png', url: ''}
 - {name: 'Yimao ZHOU', school: 'School of Humanities', image: 'assets/img/classof2023/zhouyimao.png', url: ''}
-
-
 
 
 people:
