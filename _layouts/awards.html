@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{{ content }}
-
 <h3 class="fw-bold border-bottom pb-3 mb-5">Awards</h3>
 
 <!-- 2024/06/20 CVPR -->
@@ -42,37 +40,36 @@ layout: default
           <span>Weiming ZHAO</span>
         </div>
       </div>
-
     </div>
 </div>
+
 
 
 <style>
 .award {
   display: flex;
+  flex-wrap: wrap; /* allow newline in small screen */
   margin-bottom: 20px;
 }
 
-.award-image img {
-  max-width: 200px;
+.award-image {
+  flex: 0 1 200px;
   margin-right: 20px;
+}
+
+.award-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .award-details {
   flex: 1;
 }
 
-.winner-avatar {
-  max-width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
 .winners-container {
   display: flex;
-  flex-wrap: wrap; /* 使获奖人名和头像在行中排列，当行满时自动换行 */
-  gap: 10px; /* 设置获奖人之间的间距 */
+  flex-wrap: wrap;
+  gap: 10px; /* gap between winners */
 }
 
 .winner-details {
@@ -86,5 +83,24 @@ layout: default
   border-radius: 50%;
   margin-right: 10px;
 }
+
+.winner-details span {
+  line-height: 50px; /* align with imgs */
+}
+
+/* media check for mobiles if width less than 768px*/
+@media (max-width: 768px) {
+  .award {
+    flex-direction: column; /* convert to column */
+  }
+  .award-image {
+    margin-bottom: 20px; /* bottom margin */
+    margin-right: 0; /* delete right margin */
+  }
+  .winners-container {
+    justify-content: center; /* center */
+  }
+}
+
 
 </style>
