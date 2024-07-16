@@ -9,6 +9,11 @@ menu:
 # - {name: 'contact', url: '/contact'}
 - {name: '中文', url: '/cn'}
 
+honorablechairs:
+- {name: 'Zhenhua XIONG', title: 'Professor', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiongzhenhua.png', url: ''}
+- {name: 'Xiaokang YANG', title: 'Professor', department: 'Artificial Intelligence Institute, SEIEE', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yangxiaokang.png', url: ''}
+
+
 headofclass:
 # - {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'primary-investigator'}
 - {name: 'Pengzhi CHU', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/chupengzhi.png', url: 'https://www.si.sjtu.edu.cn/content/person-detail?params=69203cf7b7cf4f88bb55c94bd1f47646&menuIds=2,7,12'}
