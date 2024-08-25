@@ -9,7 +9,7 @@ menu:
 # - {name: 'contact', url: '/contact'}
 - {name: '中文', url: '/cn'}
 
-honorablechairs:
+honorarychairs:
 - {name: 'Zhenhua XIONG', title: 'Professor', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiongzhenhua.png', url: ''}
 - {name: 'Xiaokang YANG', title: 'Professor', department: 'Artificial Intelligence Institute, SEIEE', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yangxiaokang.png', url: ''}
 
