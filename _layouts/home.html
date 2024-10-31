@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<div class="notification-box">
+  <p><b>SJTU AIGC Class of 2024 is now open for application and will close on November 17, 2024.</b></p>
+  <p><b>Please visit the "Join Us" page for more details.</b></p>
+  <p id="countdown"></p> <!-- 倒计时 -->
+</div>
 
 <div class="row g-5 mb-5">
   <div class="col-md-6">
@@ -34,3 +39,47 @@ layout: default
     </div>  
   </div>
 </div>   -->
+
+<style>
+  .notification-box {
+      background-color: #4CAF50; /*#f0ad4e*/;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      border-radius: 5px;
+  }
+
+</style>
+
+<script>
+  // Set the deadline
+  const deadline = new Date("2024-11-17T23:59:00").getTime();
+
+  // Function to update the countdown
+  function updateCountdown() {
+      const now = new Date().getTime();
+      const timeLeft = deadline - now;
+
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      // Display the countdown
+      document.getElementById("countdown").innerHTML =
+          `Time remaining until application deadline: ${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+
+      // Stop the countdown when the deadline is reached
+      if (timeLeft < 0) {
+          clearInterval(countdownInterval);
+          document.getElementById("countdown").innerHTML = "The application for SJTU AIGC Class of 2024 has closed. Thank you for your interest.";
+      }
+  }
+
+  // Update the countdown every second
+  const countdownInterval = setInterval(updateCountdown, 1000);
+</script>

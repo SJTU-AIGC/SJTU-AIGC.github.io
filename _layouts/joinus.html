@@ -7,8 +7,10 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5">Join us</h3>
 
 <div class="notification-box">
-    <p>The application for the SJTU AIGC Class of 2023 closed on November 20, 2023.</p>
-    <p>Our application for 2024 will start in September or October 2024.</p>
+    <p class="hidden"><b>The application for the SJTU AIGC Class of 2023 closed on November 20, 2023.</p>
+    <p class="hidden"><b>Our application for 2024 will start in September or October 2024.</p>
+    <p><b>SJTU AIGC Class of 2024 is now open for application and will close on November 17, 2024.</b></p>
+    <p id="countdown"></p> <!-- Countdown -->
 </div>
 
 <div class="section">
@@ -139,8 +141,13 @@ layout: default
 
 <div class="section">
     <h4 class="fw-bold pb-1 mb-2">Application Method</h4>
-    <p><b>The application for the SJTU AIGC Class of 2023 closed on November 20, 2023.</b></p>
-    <p><b>Our application for 2024 will start in September 2024.</b></p>
+    <p class="hidden"><b>The application for the SJTU AIGC Class of 2023 closed on November 20, 2023.</b></p>
+    <p class="hidden"><b>Our application for 2024 will start in September 2024.</b></p>
+    <p><b>SJTU AIGC Class of 2024 application will close on November 17, 2024. Interview notifications will be sent via email afterwards.</b></p>
+    <p><b>Fill out the application form by scanning the QR code or clicking <a href="https://wj.sjtu.edu.cn/q/AsnxcQNP" target="_blank">this link</a>.</b></p>
+    <div class="flex-image">
+        <img src="assets/img/joinus/2024_aigc_class_join_in_qrcode.png" alt="Application QR Code" style="max-width: 100%; height: auto; width: 300px;">
+    </div>
 </div>
 
 <div class="section">
@@ -151,7 +158,7 @@ layout: default
 
 <style>
     .notification-box {
-        background-color: #f0ad4e;
+        background-color: #4CAF50; /*#f0ad4e*/
         color: white;
         padding: 15px;
         text-align: center;
@@ -187,6 +194,10 @@ layout: default
         margin-bottom: 40px; /* 调整段落之间的间距 */
     }
 
+    .hidden {
+        display: none;
+    }
+
     /* 为移动设备添加媒体查询 */
     @media (max-width: 768px) {
         .flex-container {
@@ -201,4 +212,35 @@ layout: default
     }
 
 </style>
+
+
+<script>
+    // Set the deadline
+    const deadline = new Date("2024-11-17T23:59:00").getTime();
+
+    // Function to update the countdown
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const timeLeft = deadline - now;
+
+        // Calculate days, hours, minutes, and seconds
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        // Display the countdown
+        document.getElementById("countdown").innerHTML =
+            `Time remaining until application deadline: ${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+
+        // Stop the countdown when the deadline is reached
+        if (timeLeft < 0) {
+            clearInterval(countdownInterval);
+            document.getElementById("countdown").innerHTML = "The application for SJTU AIGC Class of 2024 has closed. Thank you for your interest.";
+        }
+    }
+
+    // Update the countdown every second
+    const countdownInterval = setInterval(updateCountdown, 1000);
+</script>
 
