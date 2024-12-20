@@ -20,6 +20,30 @@ headofclass:
 - {name: 'Yichao YAN', title: 'Assistant Professor', department: 'Artificial Intelligence Institute, SEIEE', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.png', url: 'https://daodaofr.github.io'}
 - {name: 'Kevin&nbsp;ZHAO&nbsp;Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://zwm0426.github.io'}
 
+classof2024:
+- {name: 'Juntao CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/chengjuntao.png', url: ''}
+- {name: 'Dayong FANG', school: 'University of Michigan – Shanghai Jiao Tong University Joint Institute', image: 'assets/img/classof2024/fangdayong.png', url: ''}
+- {name: 'Yiheng GE', school: 'School of Mechanical Engineering', image: 'assets/img/classof2024/geyiheng.png', url: ''}
+- {name: 'Jiayi JI', school: 'Antai College of Economics and Management', image: 'assets/img/classof2024/jijiayi.png', url: ''}
+- {name: 'Yige JU', school: 'School of Design', image: 'assets/img/classof2024/juyige.png', url: ''}
+- {name: 'Hanqi LI', school: 'School of Design', image: 'assets/img/classof2024/lihanqi.png', url: ''}
+- {name: 'LiXin LU', school: 'School of Mechanical Engineering', image: 'assets/img/classof2024/lulixin.png', url: ''}
+- {name: 'Yi LU', school: 'Global Institue of Future Technology', image: 'assets/img/classof2024/luyi.png', url: ''}
+- {name: 'Yibo LUO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/luoyibo.png', url: ''}
+- {name: 'Qinyuan MIAO', school: 'Ecole d''Ingénieurs Paris at SJTU', image: 'assets/img/classof2024/miaqinyuan.png', url: ''}
+- {name: 'Jincheng NIE', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/niejincheng.png', url: ''}
+- {name: 'Tian QI', school: 'School of Mathematical Sciences', image: 'assets/img/classof2024/qitian.png', url: ''}
+- {name: 'Yining QIAO', school: 'Antai College of Economics and Management', image: 'assets/img/classof2024/qiaoyining.png', url: ''}
+- {name: 'Zhida SONG', school: 'School of Medicine', image: 'assets/img/classof2024/songzhida.png', url: ''}
+- {name: 'Zhaoyuan WAN', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/wanzhaoyuan.png', url: ''}
+- {name: 'Tao WANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/wangtao.png', url: ''}
+- {name: 'Zeming WANG', school: 'School of Physics and Astronomy', image: 'assets/img/classof2024/wangzeming.png', url: ''}
+- {name: 'Zenan WU', school: 'Antai College of Economics and Management', image: 'assets/img/classof2024/wuzezan.png', url: ''}
+- {name: 'Yifan YUAN', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/yuanyifan.png', url: ''}
+- {name: 'Lin ZHANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/zhanglin.png', url: ''}
+- {name: 'Tianao ZHANG', school: 'School of Ocean and Civil Engineering', image: 'assets/img/classof2024/zhangtianyao.png', url: ''}
+- {name: 'Zijin ZHOU', school: 'Global Institue of Future Technology', image: 'assets/img/classof2024/zhouzijin.png', url: ''}
+- {name: 'Rui ZHU', school: 'Antai College of Economics and Management', image: 'assets/img/classof2024/zhurui.png', url: ''}
 
 
 classof2023: 
