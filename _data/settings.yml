@@ -19,7 +19,7 @@ headofclass:
 - {name: 'Pengzhi CHU', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/chupengzhi.png', url: 'https://www.si.sjtu.edu.cn/content/person-detail?params=69203cf7b7cf4f88bb55c94bd1f47646&menuIds=2,7,12'}
 - {name: 'Yichao YAN', title: 'Assistant Professor', department: 'Artificial Intelligence Institute, SEIEE', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.png', url: 'https://daodaofr.github.io'}
 - {name: 'Kevin&nbsp;ZHAO&nbsp;Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://zwm0426.github.io'}
-- {name: 'Mingye XIE', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://myronxie.github.io/'}
+- {name: 'Mingye XIE', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiemingye.png', url: 'https://myronxie.github.io/'}
 
 classof2024:
 - {name: 'Juntao CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2024/chengjuntao.png', url: ''}
